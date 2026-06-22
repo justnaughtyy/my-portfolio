@@ -32,7 +32,7 @@ const Navbar = () => {
 
                 {/* Desktop Button */}
                 <div className="hidden md:block p-2 bg-yellow-500 hover:bg-yellow-400 transition duration-300 rounded-xl">
-                    <Link className="text-white text-lg flex items-center gap-2" href="/">
+                    <Link className="text-white text-lg flex items-center gap-2" target='_blank' href="https://drive.google.com/drive/folders/1plPugp__DIKWIakxmKvMfH9wsX3tXSqk?usp=sharing">
                         <Download /> Resume
                     </Link>
                 </div>
@@ -57,7 +57,7 @@ const Navbar = () => {
                     <li><Link onClick={toggleMenu} className="hover:text-white transition duration-300" href="#contact">Contact</Link></li>
                     <li className="pt-2">
                         <div className="p-2 px-4 bg-yellow-500 hover:bg-yellow-400 transition duration-300 rounded-xl">
-                            <Link onClick={toggleMenu} className="text-white flex items-center" href="/">
+                            <Link onClick={toggleMenu} className="text-white flex items-center" target='_blank' href="https://drive.google.com/drive/folders/1plPugp__DIKWIakxmKvMfH9wsX3tXSqk?usp=sharing">
                                 <Download /> Resume
                             </Link>
                         </div>
