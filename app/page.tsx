@@ -50,7 +50,7 @@ export default function Home() {
             width={450}
             height={450}
             alt="Picture"
-            className="rounded-2xl w-full max-w-[300px] md:max-w-[400px] lg:max-w-[450px] h-auto object-cover transition duration-500 hover:-translate-y-2 shadow-xl"
+            className="rounded-2xl w-full max-w-[300px] md:max-w-[400px] lg:max-w-[450px] h-auto object-cover transition duration-500 hover:-translate-y-2 shadow-xl pointer-events-none"
           />
         </div>
 
