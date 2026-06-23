@@ -44,13 +44,13 @@ export default function Home() {
         </div>
 
         
-        <div data-aos="fade-left" className="right w-full lg:w-1/2 flex justify-center lg:justify-end">
+        <div data-aos="fade-left" className="right w-full lg:w-1/2 flex justify-center lg:justify-end pointer-events-none">
           <Image
             src="/profilepic.jpg"
             width={450}
             height={450}
             alt="Picture"
-            className="rounded-2xl w-full max-w-[300px] md:max-w-[400px] lg:max-w-[450px] h-auto object-cover transition duration-500 hover:-translate-y-2 shadow-xl pointer-events-none"
+            className="rounded-2xl w-full max-w-[300px] md:max-w-[400px] lg:max-w-[450px] h-auto object-cover transition duration-500 hover:-translate-y-2 shadow-xl pointer-events-auto"
           />
         </div>
 
