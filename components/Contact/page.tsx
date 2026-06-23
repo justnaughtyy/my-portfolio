@@ -28,7 +28,7 @@ const Contact = () => {
         },
         {
             name: 'Website',
-            url: 'https://yourwebsite.com',
+            url: 'https://my-portfolio-five-sigma-95.vercel.app/',
             icon : 'https://thesvg.org/icons/vercel/default.svg',
             color: 'hover:border-yellow-500 hover:shadow-[0_10px_30px_-10px_rgba(253,199,0,0.4)]',
             textColor: 'group-hover:text-yellow-400'
