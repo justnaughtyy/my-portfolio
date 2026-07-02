@@ -189,10 +189,11 @@ const PersonalProjects = () => {
                 <div className="w-full lg:w-auto">
 
                     <Link
-                        href="/"
-                        className="flex items-center justify-center gap-2 px-6 py-3 w-full lg:w-auto bg-red-500 text-black font-bold rounded-full transition-all duration-300 hover:bg-red-400 hover:gap-4"
+                        href="https://ai-chatbot-slf.vercel.app/chat"
+                        target='_blank'
+                        className="flex items-center justify-center gap-2 px-6 py-3 w-full lg:w-auto bg-yellow-500 text-black font-bold rounded-full transition-all duration-300 hover:bg-yellow-400 hover:gap-4"
                     >
-                        Under development <Lock size={20} />
+                        View Project <ArrowRight size={20} />
                     </Link>
                 </div>
 
